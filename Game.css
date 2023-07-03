@@ -1,0 +1,77 @@
+#TitleCont{
+    display: block;
+    height: 200px;
+    background-color: pink;
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+
+}
+#Title{
+    display:block;
+    position:absolute;
+    top:50%;
+    left:10px;
+    transform: translate(0%,-50%);
+    font-size: 50px;
+    color:blue;
+    font-family: "Press Start 2P";
+}
+body{
+    background-color: aqua;
+}
+#GameBoard{
+    display: block;
+    height: 500px;
+    width:700px;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,50%);
+    border:solid 6px;
+    border-radius: 5px;
+    background-color: white;
+}
+#Menu{
+  display: block;
+  position:absolute;
+  text-align: center;
+  top: 900px;
+  right:50%;
+  transform: translate(50%,-50%);
+  height: 100px;
+  width:300px;
+  border:3px solid;
+  background-color: wheat;
+}
+
+#score{
+    margin-top: 20px;
+   font-size: 20px;
+   font-family: "Press Start 2P";
+}
+#LabelCont{
+    font-size: 15px;
+    font-family: "Press Start 2P";
+    margin-top: 9px;
+}
+
+#Start{
+  margin-top: 6px;
+  border: solid 2px;
+  border-radius: 3px;
+  width: 70px;
+  height:30px;
+  font-family: "Press Start 2P";
+  font-size : 8px;
+}
+#Reset{
+    margin-top: 6px;
+    border: solid 2px;
+  border-radius: 3px;
+  width: 70px;
+  height:30px;
+  font-family: "Press Start 2P";
+  font-size : 8px;
+}
